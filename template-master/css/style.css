@@ -8,25 +8,29 @@
     width: 945px;
     height: 960px;
 }
-.header{
-    width: 945px;
-}
+
 .name{
     color: #0d418c;
     font-size: 30px;
     text-decoration: none;
-    padding-top: 45px;
-    margin-left: 60px;
+}
+.daminov{
+    display: inline-block;
+}
+.poisk{
+    width: 205px;
+    margin-top: 40px;
+    height: 21px;
+    float: right;
+    background-color: #e8e7e7;
 }
 .search{
     background-color: #e8e7e7;
     width: 140px;
-    margin-left: 630px;
-    padding-top: 500px;
+    float: right;
 }
 .buton{
-    margin-left: 630px;
-    margin-top:45px;   
+    margin-left: 630px;  
     text-decoration: none; 
 }
 .navigation{
@@ -51,4 +55,48 @@
     display: flex;
     justify-content: space-around;
     padding-right: 34px;
+    padding-left: 35px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.content{
+    background-color: #e8e7e7;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+}
+.block-icon{
+    text-align: center;
+    border: 1px #ffffff;
+    border-radius: 15px;
+    display: inline;
+}
+footer{
+    height: 45px;
+    background-color: #0d418c;
+    background-size: cover;
+}
+.text0{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 13px;
+    float: left;
+}
+.text1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0;
+    float: right;
+    padding-top: 13px;
+    padding-right: 50px;
+}
+.footerback {
+    height: 45px;
+   width: 100%;
+    background-color: #0d418c ;
+    margin: 0 auto;
 }
